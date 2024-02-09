@@ -1,0 +1,303 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+*{
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+	font-family: sans-serif;
+	font-size: 20px;
+}
+html{
+	scroll-behavior: smooth;
+}
+.navigation-bar{
+	position: fixed;
+	top: 0px;
+	left: 0px;
+	width: 100%;
+	height: 75px;
+	background: transparent;
+	backdrop-filter: blur(20px);
+	z-index: 5;
+	display: flex;
+}
+.mymenus{
+	font-weight: bolder;
+	color: black;
+}
+.mymenus:hover{
+	text-decoration:underline 2px solid royalblue;
+	color: royalblue;
+}
+.mymenus:active{
+			transform: translateY(5px);
+			background-color: springgreen;
+			color: white;
+			box-shadow: 0 0 10px #03e9f4,0 0 30px gold ;,0 0 0px #03e9f4,0 0 0px #03e9f4;
+		}
+
+}
+	.nav-link::after{
+		content: "";
+		position: absolute;
+		background-color:red;
+		height: 5px;
+		width: 0px;
+		left: 0;
+		bottom: -8px;
+		transition: all 0.5s ease;
+	}
+.logo{
+	font-family: Ariel Black;
+	font-size: 75px; 
+
+}
+.logo{
+			margin-top: 8px;
+			background: linear-gradient(to right,#5a03fc,#fc03f4,#fc036b,#fc0303,#fc5a03,#fcf403);
+			font-size: 75px;
+			background-size: 200% auto;
+			-webkit-background-clip:text;
+			color: transparent;
+			animation: gradient 2s linear infinite;
+		}
+
+		@keyframes gradient{
+			0%{
+				background-position: 0% 75%;
+			}
+			50%{
+				background-position: 100% 30%;
+			}
+
+			100%{
+				background-position: 0% 70%;
+			}
+
+		}
+
+				@keyframes button{
+			0%{
+				background-position: 0% 75%;
+			}
+			50%{
+				background-position: 100% 30%;
+			}
+
+			100%{
+				background-position: 0% 70%;
+			}
+
+		}
+.allsections{
+	position: relative;
+	top: 100px;
+	width: 100%;
+
+}
+.allsections::after{
+		content: "";
+		position: absolute;
+		background-color:red;
+		height: 5px;
+		width: 0px;
+		left: 0;
+		bottom: -8px;
+		transition: all 0.5s ease;
+	}
+.allsections::hover::after{
+		width: 100%;
+	}
+#home{
+	color: black;
+	padding-top: 60px;
+}
+	#about{
+	color: black;
+	padding-top: 60px;
+}
+#skills{
+	color: black;
+	padding-top: 60px;
+}
+#projects{
+	color: black;
+	padding-top: 60px;
+}
+#contact{
+	color: black;
+	padding-top: 60px;
+}
+}
+.section h1{
+	text-align: center;
+	margin-top: 50px;
+}
+
+.home-section{
+	border: none;
+	width: 100%;
+	height: 600px;
+	background-image: url(https://i.pinimg.com/originals/b9/e4/96/b9e4960c1476c78043d499d975f86cdb.gif);
+	background-repeat: no-repeat;
+	backgroundd-size:65%;
+	background-position: 95% 2%;
+}
+.myinfo{
+	height: 450px;
+	width: 50%;
+	margin: 5% 4%;
+}
+.info-home{
+	font-size: 30px;
+	font-family: sans-serif;
+}
+.myname{
+	font-size: 50px;
+	font-weight: bolder;
+}
+.fsjd{
+	font-family: Elephant;
+	font-size: 30px;
+	color: royalblue;
+}
+.resume{
+	height: 60px;
+	width: 450px;
+	margin: 10px 2px;
+	border: none;
+	background-color: royalblue;
+	color: white;
+	border-radius: 30px;
+	font-family: Ariel Black;
+}
+.resume:hover{
+			background-color: white;
+			color: royalblue;
+			scale: 0.95;
+			box-shadow: 0 0 0px #03e9f4,0 0 30px gold ;,0 0 0px #03e9f4,0 0 0px #03e9f4;
+		}
+		.resume:active{
+			transform: translateY(5px);
+			background-color: springgreen;
+			color: white;
+			box-shadow: 0 0 10px #03e9f4,0 0 30px gold ;,0 0 0px #03e9f4,0 0 0px #03e9f4;
+		}
+
+.about-section{
+	background-color: ghostwhite;
+	border: none;
+	width: 100%;
+	height: 700px;
+
+	padding: 20px;
+}
+.aboutsect{
+	height: 525px;
+}
+.myimg{
+	width: 40%;
+	padding-top: 150px;
+}
+.cobj{
+	padding: 30px 60px;
+	width: 60%;
+}
+.career{
+	text-align: justify;
+	font-size: 20px;
+	margin-top: 110px;
+	text-indent: 20%;
+	font-family: sans-serif;
+	font-weight: bolder;
+	line-height: 40px;
+}
+.projects-section{
+	background-color: ghostwhite;
+	border: none;
+	width: 100%;
+	height: 400px;
+
+	padding: 20px;
+}
+.skills-section{
+	background-color: ghostwhite;
+	border: none;
+	width: 100%;
+	height: 700px;
+	padding: 20px;
+}
+.projects-section
+{
+	padding: 20px;
+	border: none;
+	height: 1500px;
+}
+.contacts-section{
+	background-color: ghostwhite;
+	border: none;
+	width: 100%;
+	height: 700px;
+
+	padding: 20px;
+}
+
+.table{
+	width: 100%;
+	
+}
+.theader{
+	width: 750px;
+	height: 75px;
+	font-size: 25px;
+	color: white;
+	background-color: skyblue;
+	font-variant: small-caps;
+}
+.theader:hover{
+	background-color: white;
+	color: royalblue;
+	font-size: 26px;
+}
+
+.prop{
+	height: 30px;
+	font-size: 18px;
+	line-height: 25px;
+	font-weight: bolder;
+
+}
+
+.all-projects{
+	margin-top: 1px;
+	scale: 0.8;
+}
+.card-title{
+	color: orangered;
+	font-weight: bolder;
+
+}
+.card{
+	box-shadow: 0 0 0px #03e9f4,0 0 30px gold ;,0 0 0px #03e9f4,0 0 0px #03e9f4;
+	border-radius: 30px;
+}
+.card-img-top{
+	height: 200px;
+	width: 200px;
+
+}
+.cnt-tbl{
+	margin-top: 30px;
+}
+.card-body{
+	height: 475px;
+	box-shadow: 0 0 0px #03e9f4,0 0 30px gold ;,0 0 0px #03e9f4,0 0 0px #03e9f4;
+	font-weight: bolder;
+	width: 100%;
+}
+.field-user{
+	width: 450px;
+}
+.myemail{
+	width: 25%;
+	margin-left: 500px;
+}
